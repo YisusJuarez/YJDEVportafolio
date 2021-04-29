@@ -1,0 +1,94 @@
+/* Fonts */
+@font-face {
+  font-family: RobotoRegular;
+  src: url("./fonts/RobotoMono-Regular.ttf");
+}
+@font-face {
+  font-family: RobotoThin;
+  src: url("./fonts/RobotoMono-Thin.ttf");
+}
+@font-face {
+  font-family: RobotoLight;
+  src: url("./fonts/RobotoMono-Light.ttf");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("./fonts/RobotoMono-Medium.ttf");
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url("./fonts/RobotoMono-Bold.ttf");
+}
+/*Vars*/
+:root {
+  --blue: #0767F6;
+}
+/*Page*/
+.bg-whiter{
+  background-color: white;
+}
+.navbar .brand-name{
+  font-family: RobotoMedium;
+}
+.navbar a{
+  font-family: RobotoMedium;
+}
+
+.navbar .nav-item a:hover:after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 15px;
+  height: 5px;
+  background-color: var(--blue);
+
+}
+
+
+body{
+  padding-top: 100px;
+}
+.header-title{
+  font-family: RobotoLight;
+  font-size: 2.3rem;
+}
+.header-title span{
+  font-family: RobotoRegular;
+}
+.header-subtitle{
+  font-family: RobotoLight;
+  font-size: 1.3rem;
+}
+
+/* Seccion Proyectos*/
+.proyectos-title{
+  font-family: RobotoBold;
+  font-size: 1rem;
+  padding-top: 50px;
+}
+.proyecto-img{
+  background-color: dimgray;
+  width: 100%;
+  height: 280px;
+}
+.proyecto-titulo{
+  font-family: RobotoBold;
+  font-size: 1.3rem;
+  padding-top: 20px;
+}
+.proyecto-descripcion{
+  font-family: RobotoLight;
+  font-size: 1rem;
+}
+/*Contacto*/
+.contacto{
+  text-align: center;
+}
+.contacto-title{
+  font-size: 2rem;
+  font-family: RobotoBold;
+}
+.contacto-description{
+  font-family: RobotoLight;
+  font-size: 1rem;
+}

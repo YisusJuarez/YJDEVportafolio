@@ -92,3 +92,8 @@ body{
   font-family: RobotoLight;
   font-size: 1rem;
 }
+.contacto-enviar{
+  color: var(--blue);
+  font-family: RobotoBold;
+  font-size: 1rem;
+}
